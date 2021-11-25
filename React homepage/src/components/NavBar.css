@@ -1,0 +1,38 @@
+.header {
+  background-color: #20232a;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: fixed;
+}
+#logo {
+  color: #61dafb;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.header-items {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 60px;
+ font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.menu-items {
+  display: flex;
+  margin-left: 159px;
+}
+.item {
+  margin-left: 60px;
+}
+.item:hover {
+  color: #61dafb;
+  cursor: pointer;
+}
+.search-box{
+    margin-left:150px;
+}
+.search{
+    background-color: #20232a;
+height: 30px;
+}

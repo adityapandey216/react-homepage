@@ -1,0 +1,55 @@
+.snippet-header {
+  background-color: #20232a;
+  color: white;
+  height: 40px;
+  display: flex;
+  width: 549px;
+  align-items: center;
+  padding-left: 10px;
+}
+.result-header {
+  background-color: #ececec;
+  color: black;
+  height: 40px;
+  display: flex;
+  width: 359px;
+  align-items: center;
+  padding-left: 10px;
+}
+.snippet-content {
+  background-color: #282c34;
+  height: 260px;
+  width: 559px;
+}
+.result-content{
+    background-color: white;
+    height: 260px;
+    width: 366px;
+    border: 1px groove grey;
+    
+}
+.snippet {
+  padding-left: 10px;
+}
+.token.keyword {
+  color: rgb(197, 165, 197);
+}
+.token.class-name {
+  color: rgb(250, 200, 99);
+}
+.token.punctuation {
+  color: rgb(136, 198, 190);
+}
+span {
+  margin-left: 4px;
+}
+.token.function {
+  color: rgb(121, 182, 242);
+}
+.token.tag {
+  color: rgb(252, 146, 158);
+}
+.container {
+  display: flex;
+  padding-left: 20px;
+}

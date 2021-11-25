@@ -1,0 +1,9 @@
+.info-container{
+    display: flex;
+   padding-left: 60px;
+   margin-top: 20px;
+}
+.info{
+    width:450px;
+    height: 100px;
+}
